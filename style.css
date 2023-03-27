@@ -21,4 +21,8 @@ div.content>.buttons{
 }
 footer>p{
     text-align: center;
+    color: lightgray;
+}
+footer a{
+    color: lightgray;
 }
