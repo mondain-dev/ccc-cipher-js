@@ -1,0 +1,3 @@
+[submodule "ccc-cipher"]
+	path = ccc-cipher
+	url = https://github.com/mondain-dev/ccc-cipher

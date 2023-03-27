@@ -1,0 +1,20 @@
+{
+  "name": "ccc-cipher",
+  "version": "1.0.0",
+  "description": "A cipher based on Chinese Commercial Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "node load_table.js && npx webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "babel-polyfill": "^6.26.0",
+    "base32.js": "^0.1.0",
+    "csv": "^6.2.8"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}

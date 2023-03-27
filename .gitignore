@@ -1,0 +1,4 @@
+node_modules/*
+dist/*
+CCCDecoding.json
+CCCEncoding.json
