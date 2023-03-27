@@ -4,7 +4,8 @@
   "description": "A cipher based on Chinese Commercial Code",
   "main": "index.js",
   "scripts": {
-    "build": "node load_table.js && npx webpack"
+    "build": "node load_table.js && npx webpack",
+    "deploy": "mkdir docs/dist -p && cp index.html style.css docs/ && cp dist/bundle.js docs/dist"
   },
   "author": "",
   "license": "MIT",
