@@ -24,6 +24,6 @@ jobs:
 
     - name: Build
       run: |
-        git submodule update
+        git submodule update --init
         npm install
         npm run build
